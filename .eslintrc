@@ -1,0 +1,18 @@
+{
+  "rules": {
+    "semi": 0,
+    "react/no-unescaped-entities": 0,
+    "react/require-default-props": 0,
+    "react/forbid-prop-types": 0,
+    "no-underscore-dangle": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
+    "max-len": ["error", 120],
+    "no-use-before-define": [2, { "variables": false }],
+    "jsx-quotes": ["error", "prefer-single"]
+  },
+  "globals": {
+    "fetch": false
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb"
+}
