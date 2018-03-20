@@ -12,11 +12,12 @@ Then you can start the app by pressing i (for iOS) or scanning the QR Code from 
 ## Application Features
 - Search Flickr images using the web API
 - Infinite scroll implemented with FlatList component. FLickr API is paged.
-- Configure how many images are in the row in config.js (const photosPerRow = 3)
+- Configure how many images are in the row in config.js (```const photosPerRow = 3```)
 - There is a debouncing mechanism when typing a query phrase. The search starts when typing has stopped for 750 ms
 - Tap the image to open it full screen
 - Slide from left to go back
 - Slide up to see the image details
+- eslint code quality check with ```yarn eslint```
 
 ## 3rd Party Libs
 
